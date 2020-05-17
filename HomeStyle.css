@@ -1,0 +1,318 @@
+html,body{
+    scroll-behavior: smooth;
+    font-family: Raleway;
+    
+}
+
+i:hover{
+    color: rgba(0, 0, 0, 0.849);
+}
+
+
+h{
+    margin: 80px 40px;
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(0,125,195);
+    
+}
+h.connect{
+    margin: 70px 150px 0px;
+    display: block;
+
+}
+
+h.cap{
+    flex:50%;
+    align-items: center;
+    text-align: left;
+    margin:auto;
+    padding-left: 0px;
+}
+
+
+h2{
+    margin: -325px auto;
+    text-align: center;
+    font-size: 60px;
+    font-family: Raleway;
+    color: rgb(187, 186, 186);
+    text-shadow: 0px 2px rgb(138, 137, 137);
+    font-weight: bold;
+}
+
+h2.home{
+    margin: -400px 10px auto 55%;
+    text-align: left;
+    font-size: 5vw;
+}
+
+h2.shrunk{
+    margin: -125px auto;
+    font-size: 5vw;
+}
+
+p.contact{
+    text-align: left;
+    margin: 15px 0px;
+    padding: 5px 0;
+}
+
+ul.about{
+    list-style-type: disc;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+hr{
+    border: none;
+    background-color: rgb(0,164,224);
+    height: 1px;
+}
+
+sup{
+    color:red;
+}
+
+form{
+    margin-top: -30px;
+}
+
+label{
+    font-family: Raleway;
+    margin: 10px;
+    font-size: 20px;
+    margin-bottom: 2px;
+    
+}
+input{
+    font-family: Raleway;
+    border: solid 1px rgb(189, 189, 189);
+    margin: 10px;
+    margin-top: 2px;;
+    height: 30px;
+    width:200px;
+    font-size: 15px;
+}
+textarea{
+    margin: 4px 10px;
+    font-size: 15px;
+}
+button:hover{
+    color: rgb(2, 64, 97);
+    text-decoration: none;
+    cursor: pointer;
+}
+.dropdown{
+    font-size: inherit;
+    border: none;
+    outline: none;
+    color: rgb(0,125,195);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    visibility: hidden;
+}
+
+.drop_contents{
+  display: none;
+  position: fixed;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+  z-index: 1;
+  width: 150px;
+  text-align: center;
+}
+.reveal{
+    display: block;}
+.hide{
+    visibility: hidden;
+}
+.navcontainer{
+    display: block;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 20px 0px;
+    background-color: white;
+    position: fixed;
+    width:100%;
+    margin-bottom: 0px;
+    border-bottom: solid 1px rgb(0,164,224);
+    
+}
+.navlist{
+    float: right;
+    color: rgb(0,125,195);
+    font-size: 18px;
+    cursor: pointer;
+
+}
+.navlist a{
+  color: rgb(0,125,195);
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  padding: 40px 10px;
+  line-height: 50px;
+  
+}
+.navlist.menu a{
+    padding: 10px;
+}
+.navlist a:hover{
+    color: rgb(2, 64, 97);
+    text-decoration: none;
+}
+.navlist.logo_top{
+    float:left; 
+    text-align: center;
+    padding: 10px 10px;
+    line-height: 20px;
+    
+}
+.fab{
+    margin: 5px;
+}
+.fab.fa-linkedin{
+    margin-left: 0px;
+}
+.social{
+    color: rgb(165, 165, 165);
+    font-size: 40px;
+}
+.row{
+    display: flex;
+    padding: 10px 60px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.contact{
+    padding: 5px 60px;
+    text-align: center;
+}
+.bottom-info{
+    margin-bottom: 30px;
+}
+.column{
+    flex:50%;
+}
+.column.text{
+    text-align: left;
+}
+.column.text.cap{
+    padding: 30px;
+}
+.column.center.about{
+    align-items: center;
+    text-align: center;
+    margin:auto;
+   
+}
+.column.center.contact{
+    margin: 10px auto;
+    padding-top: 12px;
+    font-size: 22px;
+    text-align: left;
+}
+#Home{
+    width: 100%;
+    height:650px;
+}
+#coverImage{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+#shrunk_Home{
+    width:100%;
+    height:300px;
+}
+#logo{
+    height: 35px;
+    padding-left: 10px;
+    margin: auto;
+    text-align: center;
+    line-height: 35px;
+    margin-bottom: 0;
+}
+#headshot{
+    border: transparent;
+    border-radius: 200px;
+}
+#About{
+    padding: 140px 80px 60px;
+    margin-top: -100px;
+}
+#Information{
+    padding: 40px 60px;
+    margin: 10px 40px;
+}
+#myfile{
+    height: 30px;
+    width: 200px;
+    border: transparent;
+}
+#submit{
+    background-color: rgb(230, 230, 230);
+}
+#keyword{
+    color: rgb(0,164,224);
+}
+#sub{
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 0px;
+    text-shadow: none;
+    display: block;
+}
+#space{
+    margin-bottom: 10px;
+}
+
+
+
+
+@media only screen and (max-width:845px){
+/* mobile */
+    #desktop{
+        display: none;
+    }
+   .dropdown{
+       visibility: visible;
+   }
+
+
+    .row,#About{
+        display: block;
+        text-align: center;
+    }
+
+    .column.center.contact,p.contact{
+        text-align: center;
+    }
+
+    #About{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    h.cap{
+        font-size: 30px;
+    }
+
+    h2.shrunk{
+        font-size: 40px;
+    }
+
+    #sub{
+        display: none;
+    }
+
+    h2.home{
+        margin-top: -375px;
+    }
+
+}
+
+
