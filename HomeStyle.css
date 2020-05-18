@@ -59,25 +59,39 @@ p.contact{
 }
 
 ul.about{
-    list-style-type: disc;
+    list-style-type: circle;
     font-size: 16px;
     line-height: 22px;
 }
-
 hr{
     border: none;
     background-color: rgb(0,164,224);
     height: 1px;
 }
-
 sup{
     color:red;
 }
-
 form{
     margin-top: -30px;
 }
-
+h3{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(0,125,195);
+    margin: 5px 10px 20px;
+    padding: 10px 0px;
+}
+ul.network{
+    list-style: inside; 
+    list-style-type: circle;
+}
+li.network{
+    margin: 10px 0px;
+    font-size: 16px;
+    padding: 10px 0 10px 10px;
+    text-align: left;   
+}
 label{
     font-family: Raleway;
     margin: 10px;
@@ -187,6 +201,18 @@ button:hover{
     font-size: 16px;
     margin-top: 10px;
 }
+.thirds{
+    flex:33%;
+    background-color:rgb(212, 212, 212);
+    border: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 2px 2px rgb(145, 145, 145),
+    0px -2px 2px rgb(145, 145, 145),
+    2px 0px 2px rgb(145, 145, 145),
+    -2px 0px 2px rgb(145, 145, 145);
+    margin: auto 10px;
+}
+
 .contact{
     padding: 5px 60px;
     text-align: center;
