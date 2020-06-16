@@ -21,25 +21,20 @@
     <ul class="navcontainer">
         <li class="navlist logo_top"><img id="logo" src="Logo Graphic.png"></li>
         <li class="navlist logo_top" style="margin: 7px auto 1px auto;">Boston BioConsulting, LLC.</li>
-        <div id="desktop">
-        <li class="navlist"> <a href="Contact.html">Contact</a></li>
-        <li class="navlist"> <a href="Network.html">Network</a></li>
-        <li class="navlist"> <a href="#top">Capabilities</a></li>
-        <li class="navlist"> <a href="Home.html#About">About</a></li>
-        <li class="navlist"> <a href="Home.html">Home</a></li>  
-        </div>
-        <li class="navlist menu"><button onclick="menu_function()" class="dropdown">Menu
-            <i class="fas fa-caret-down"></i></button>
-            <div id="dropjs" class="drop_contents">
-                <a href="Home.html">Home</a><br>
-                <a href="Home.html#About">About</a><br>
-                <a href="#top">Capabilities</a><br>
-                <a href="Network.html">Network</a><br>
-                <a href="Contact.html">Contact</a>
-                
-              </div>
-        </li>
+        <li class="navlist menu"><button onclick="openNav()" class="dropdown">
+            <i class="fas fa-bars"></i> Menu</button>
     </ul>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="Home.html">Home</a>
+          <a href="#top">Capabilites</a>
+          <a href="Network.html">Network</a>
+          <a href="Contact.html">Contact</a>
+        </div>
+      
+    </div>
     <!--Space filler, couldn't get page to format correctly, margin-top or padding-top aren't working-->
     <div id="shrunk_Home">
         <img id="coverImage-banner" src="banner.png">

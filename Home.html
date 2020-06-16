@@ -21,27 +21,24 @@
         <ul class="navcontainer">
             <li class="navlist logo_top"><img id="logo" src="Logo Graphic.png"></li>
             <li class="navlist logo_top" style="margin: 7px auto 1px auto;">Boston BioConsulting, LLC.</li>
-            <div id="desktop">
-            <li class="navlist"> <a href="Contact.html">Contact</a></li>
-            <li class="navlist"> <a href="Network.html">Network</a></li>
-            <li class="navlist"> <a href="Capabilities.html">Capabilities</a></li>
-            <li class="navlist"> <a href="#About">About</a></li>
-            <li class="navlist"> <a href="#top">Home</a></li></div>
-            <li class="navlist menu"><button onclick="menu_function()" class="dropdown">Menu
-                <i class="fas fa-caret-down"></i></button>
-                <div id="dropjs" class="drop_contents">
-                    <a href="#top">Home</a><br>
-                    <a href="#About">About</a><br>
-                    <a href="Capabilities.html">Capabilities</a><br>
-                    <a href="Network.html">Network</a><br>
-                    <a href="Contact.html">Contact</a>
-                    
-                  </div>
-            </li>  
+            <li class="navlist menu"><button onclick="openNav()" class="dropdown">
+                <i class="fas fa-bars"></i> Menu</button>
         </ul>
+
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="#top">Home</a>
+              <a href="Capabilities.html">Capabilites</a>
+              <a href="Network.html">Network</a>
+              <a href="Contact.html">Contact</a>
+            </div>
+          
+        </div>
+
     <div id="Home">
         <img id="coverImage" src="home-image.png">
-        <h2 class="home">Boston BioConsulting<p id="sub">Advisory services supporting corporate, business development<br>and early commercialization strategy for biopharmaceutical companies</h2>
+        <h2 class="home">Boston BioConsulting<p id="sub">Advisory services supporting corporate, business development and early commercialization strategy for biopharmaceutical companies</h2>
     </div>
     <br>
     <div id="About">
